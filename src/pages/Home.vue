@@ -3,7 +3,7 @@
         <div class="bg-[url('./assets/img/main-bg.jpg')]  h-full overflow-hidden bg-center bg-cover "> 
             <Header/>
             <main class="flex flex-col md:flex-row py-12 gap-8 md:gap-5 relative w-[90%] mx-auto overflow-hidden ">
-                <div class="pt-8 md:order-1 md:w-[58%] self-center order-2">
+                <div class="pt-8 md:order-1 md:w-[58%] md:self-center order-2">
                     <h2 class="font-bold mb-2 text-[9vw] md:text-[5vw] text-[#000066] leading-none font-[Poppins] ">
                         We convert waste <br/> to wealth
                     </h2>
@@ -22,12 +22,14 @@
 
 
         <AboutUs />
+        <Our_drive/>
 </template>
-
+    
 
 <script setup> 
     import Header from '../components/Header.vue'
     import Button from '../components/Button.vue'
-    import AboutUs from '../components/AboutUs.vue'
+    import AboutUs from '../pages/AboutUs.vue'
+    import Our_drive from '../components/Our_drive.vue'
 
 </script>
