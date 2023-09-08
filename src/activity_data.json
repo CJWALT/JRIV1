@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "icon":"clean",
+        "title":"Clean-up", 
+        "text": "We have monthly cleanups that gives us avenue to carry out sanitation in communities." 
+    },
+    {
+        "id":2,
+        "icon":"campaign",
+        "title":"Campaign", 
+        "text": "Our campaign strategies will be to reach out to in-school students on waste management and recycling. We also make use of Instagram live for our webinar to reach out to as many as possible." 
+    },
+    {
+        "id":3,
+        "icon": "education",
+        "title":"Education", 
+        "text": "We take advantage of the knowledge economy to bridge the gap between head-knowledge and real life problem solving through researches and writing." 
+    },
+    {
+        "id":4,
+        "icon": "product",
+        "title":"Product", 
+        "text": "We make Eco-friendly products which are affordable amd we also offer return and get discount on next product ." 
+    },
+    {
+        "id":5,
+        "icon": "empowerment",
+        "title":"Empowerment", 
+        "text": "Our empowerment programs are targeted to youths and women from low income background in Africa training them on how to convert their waste to wealth with proper mentorship." 
+    }
+]

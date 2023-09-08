@@ -1,6 +1,6 @@
 <template> 
 
-    <div class="bg-[#F2F2F7] relative py-[6.9rem] rounded-tr-[8rem] "> 
+    <div class="bg-[#F2F2F7] relative py-[7.4rem] rounded-tr-[8rem] "> 
        <div class="w-[90%] md:flex-row flex flex-col lg:gap-10 md:gap-5 gap-4 py-4 mx-auto">  
             <div class="grid grid-cols-7 grid-rows-7 gap-4 md:w-[50%]">
                     <div class="img-oneU">

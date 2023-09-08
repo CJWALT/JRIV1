@@ -23,13 +23,15 @@
 
         <AboutUs />
         <Our_drive/>
+        <Key_Activities/>
 </template>
-    
+
 
 <script setup> 
     import Header from '../components/Header.vue'
     import Button from '../components/Button.vue'
     import AboutUs from '../pages/AboutUs.vue'
     import Our_drive from '../components/Our_drive.vue'
+    import Key_Activities from '../components/Key_Activities.vue'
 
 </script>

@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "icon":"mission",
+        "title":"Mission", 
+        "text": "Transforming waste into attractive and useful items, empowering vulnerable youth and women globally." 
+    },
+    {
+        "id":2,
+        "icon":"vision",
+        "title":"Vision", 
+        "text": "A just sustainable world free of waste and unemployment." 
+    },
+    {
+        "id":3,
+        "icon": "approach",
+        "title":"Approach", 
+        "text": "We collect waste, create products, educate, and empower marginalized individuals." 
+    }
+]
