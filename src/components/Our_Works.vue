@@ -6,7 +6,7 @@
                 
             </div>
             <div class="mb-[1rem]">
-                <Our_Products/>
+                <Our_Products :regNow="sendMessage"/>
             </div>
             <div class="mb-[1rem]">
                 <Our_Outreaches/>

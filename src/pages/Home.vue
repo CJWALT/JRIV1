@@ -33,7 +33,7 @@
         <Key_Activities/>
         <UpcomingEvents :sendMessage="sendWhatsapp"/>
         <Jri_Academy />
-        <Our_Works/>
+        <Our_Works :sendMessage= "sendWhatsapp"/>
         <Our_team/>
         <Humble_Act/>
         <Testimonial/>
