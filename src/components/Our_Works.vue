@@ -30,4 +30,10 @@
     import Our_Outreaches from './Our_Outreaches.vue'
     import Past_Event from './Past_Event.vue'
 
+    import { defineProps } from 'vue'
+
+    const props = defineProps({
+        sendMessage: Function
+    })
+
 </script>
