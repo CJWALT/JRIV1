@@ -1,7 +1,7 @@
 <template> 
 
     <Header/>
-    <p>Activities</p>
+    <p>Blogsite</p>
 
 </template>
 

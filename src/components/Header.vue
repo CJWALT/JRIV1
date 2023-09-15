@@ -3,20 +3,28 @@
 <template>  
 
     <header class="py-10  w-full">
-        <div class="relative w-[90%] mx-auto flex items-center justify-between">
-               <router-link to="/"> <img src="../assets/img/Jrlogo.png" class="w-[3rem]" alt="just recycle logo"/> </router-link> 
-                <div :class="{'hidden' : !openNav, 'block': openNav}" class="absolute z-10 top-0 right-0 bg-[#a2a2cc] rounded-md p-8 text-red-400 font-[Poppins]">
-                    <ul class="text-[#000066] mb-4 grid gap-2">
-                        <li><a href="/" @click="toggleNav"> Home</a> </li>
-                        <li><a href="/about-us/full" @click="toggleNav"> About </a> </li>
-                        <li><a href="/" @click="toggleNav"> Activities</a> </li>
-                        <li><a href="/home" @click="toggleNav"> Academy</a> </li>
-                        <li><a href="/home" @click="toggleNav"> Gallery</a> </li>
-                        <li><a href="/home" @click="toggleNav"> Blog</a> </li>
+        <div class="relative w-[90%] mx-auto flex items-center lg:gap-10 justify-between xl:w-[80%]">
+               <router-link to="/"> <img src="../assets/img/Jrlogo.png" class="w-[3rem] md:w-[6rem]" alt="just recycle logo"/> </router-link> 
+                <div :class="{'hidden' : !openNav, 'block': openNav}" class="absolute z-10 top-0 right-0 bg-[#a2a2cc] rounded-md p-8 text-red-400 font-[Poppins] lg:w-[70%] lg:relative lg:flex lg:flex-row lg:justify-between lg:gap-5 lg:p-0 lg:bg-transparent xl:w-[58%]">
+                    <ul class="text-[#000066] font-semibold text-[1rem] mb-4 grid gap-2 lg:flex lg:self-center lg:mb-0 lg:gap-5">
+                        <li><router-link to ="/" @click="toggleNav"> Home</router-link> </li>
+                        <li><router-link to ="/about-us" @click="toggleNav"> About </router-link></li>
+                        <li><router-link to="/activities" @click="toggleNav"> Activities</router-link> </li>
+                        <li><router-link to="/academy" @click="toggleNav"> Academy</router-link> </li>
+                        <li><router-link to="/gallery" @click="toggleNav"> Gallery</router-link> </li>
+                        <li><router-link to="/blog" @click="toggleNav"> Blog</router-link> </li>
                     </ul>
-                    <Button bgColor='bg-[#FFA235]' children='Contact' fntColor="text-[#000066]" btnRounded="rounded-[1rem]" weightFont="font-bold" btnPd="px-[2rem]" fntSize="text-[1.3rem]"/>
+                    <Button bgColor='bg-[#FFA235]'
+                        children='Contact'
+                        fntColor="text-[#000066]" 
+                        btnRounded="rounded-[1rem]" 
+                        weightFont="font-bold"
+                        btnPd="px-[2rem]"
+                        fntSize="text-[1.3rem]"
+                        :handleClick="handleEmail"
+                        />
                 </div>
-                <div class="p-3 rounded-lg bg-gray-700 bg-opacity-10">
+                <div class="p-3 rounded-lg bg-gray-700 lg:hidden bg-opacity-10">
                     <i class="fa-solid fa-bars cursor-pointer text-[1.5rem]"
                         @click="toggleNav"></i>
                 </div>  
@@ -36,6 +44,16 @@
 
     const toggleNav = () =>{ 
         openNav.value = !openNav.value
+    }
+
+    const handleEmail = () =>{ 
+
+        const myEmail = 'justrecycle1@gmail.com'
+        
+        const mailtoUri = `mailto:${myEmail}`
+
+        window.location.href = mailtoUri
+
     }
     
 </script> 

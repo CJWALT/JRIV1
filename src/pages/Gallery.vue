@@ -1,8 +1,7 @@
 <template> 
 
     <Header/>
-    <p>Activities</p>
-
+    <p>Our Gallery</p>
 </template>
 
 <script setup> 

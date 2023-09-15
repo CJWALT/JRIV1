@@ -1,7 +1,7 @@
 <template>
-    <div class="w-[90%] mx-auto">
+    <div class="w-[90%] mx-auto xl:w-[80%]">
         <div class="py-[7.4rem]">
-            <h2 class="mb-[1.7rem] text-[2rem] font-semibold text-[#000066] font-[Poppins]">Our Drive</h2>
+            <h2 class="mb-[1.7rem] md:text-[2rem] text-[5vw] font-semibold text-[#000066] font-[Poppins]">Our Drive</h2>
 
             <div class="flex flex-col md:flex-row md:justify-center lg:flex-nowrap md:flex-wrap px-10 gap-10">
                 <div v-for="ourDrive in driveData" :key="ourDrive.id"  class="text-center md:w-[40%] lg:w-[33.3%] ">

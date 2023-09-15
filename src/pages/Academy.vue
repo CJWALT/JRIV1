@@ -1,10 +1,12 @@
-<template> 
+<template>
 
     <Header/>
-    <p>Activities</p>
+    <p>Academy</p>
 
 </template>
 
-<script setup> 
+
+<script setup>
     import Header from '../components/Header.vue'
+    
 </script>

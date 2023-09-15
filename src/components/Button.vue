@@ -1,5 +1,7 @@
 <template>
-        <button :class="[btnBg, sizeFnt, padding, fntWeight, btnRnd, colorTxt, 'font-[poppins] py-[.5rem]']"> {{props.children}} </button>
+        <button
+         :class="[btnBg, sizeFnt, padding, fntWeight, btnRnd, colorTxt, 'font-[Poppins] py-[.5rem]']"
+        @click="handleClick"> {{props.children}} </button>
 </template> 
 
 
@@ -8,16 +10,17 @@
      import {defineProps } from 'vue';
 
 
-     const props = defineProps( {
+     const props = defineProps({
         children:String,
         bgColor:String,
         fntColor:String,
         weightFont: String,
         btnPd:String,
         btnRounded:String,
-        fntSize:String
-
+        fntSize:String,
+        handleClick:Function,
      })
+
         const btnColor = ['red', 'bg-[#FFA235]']
         const txtColor = ['text-white', 'text-[#000066]']
         const btnPad = ['px-[2rem]', 'px-[1.5rem]']
