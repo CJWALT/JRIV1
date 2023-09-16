@@ -18,7 +18,7 @@
                 </div>
                 <div class="lg:w-[20%] md:w-[40%]  w-[56%] grid place-items-center">
                     <div class=" w-[10rem] object-fill mb-1 xl:w-auto"> 
-                        <img src="/assets/img/Rapheal.jpg" alt=" cofounder"  class="xl:w-[100%] mx-auto object-cover shadow-lg rounded-[1.5rem]">
+                        <img src="../assets/img/Rapheal.jpg" alt=" cofounder"  class="xl:w-[100%] mx-auto object-cover shadow-lg rounded-[1.5rem]">
                     </div>
                     <h4 class="text-[1rem] text-center font-semibold font-[Poppins]  text-[#000066]">
                         Rapheal Odey
