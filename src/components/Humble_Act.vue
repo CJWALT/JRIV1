@@ -2,13 +2,13 @@
 
     <div class="w-[90%] mx-auto py-[7.4rem] xl:w-[80%]"> 
 
-        <h2 class="md:text-[2rem] text-[5vw] font-[Poppins] text-[#000066] font-semibold mb-[.6rem]" >Our Humble Acts</h2>
+        <h2 class="md:text-[2rem] text-[5vw] font-[Poppins] text-[#000066] font-semibold mb-[.6rem]" >OUR HUMBLE ACTS</h2>
 
         <div class="flex flex-row overflow-x-scroll scroll-width gap-5 xl:gap-10 xl:overflow-hidden xl:justify-between">
 
             <div class=" h-[8.63rem] w-[13.5rem] flex-none text-[#FEBD01] py-[2rem] text-center bg-[#000066] rounded-[1.3rem]"> 
                 <h2 class="font-[Poppins] font-semibold text-[2rem]">
-                        500+
+                        500kg+
                     </h2>
                     <small class="text-[1rem] font-[Poppins] font=semibold">
                         Waste Recycle

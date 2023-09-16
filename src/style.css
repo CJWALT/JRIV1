@@ -72,3 +72,11 @@
    transform:skewX(20deg)
 }
 
+input::placeholder{ 
+   font-size:1rem; 
+   font-family: 'Poppins', sans-serif;
+   font-style: italic;
+   filter:brightness(40%);
+   color:#000066
+}
+

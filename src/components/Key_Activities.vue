@@ -3,7 +3,7 @@
     <div class="py-[7.4rem] bg-[#F2F2F7]"> 
         <div class="w-[90%] mx-auto xl:w-[80%]">
             <h2 class="font-[Poppins] mb-[3.5rem] md:text-[2rem] text-[5vw] text-[#000066] font-semibold"> 
-                Our Key Activites
+                OUR KEY ACTIVITIES
             </h2>            
 
             <div class="px-5 gap-10 flex flex-col md:flex-row md:flex-wrap md:gap-10 md:justify-center xl:gap-y-10 xl:gap-10 lg:px-0 xl:px-5"> 

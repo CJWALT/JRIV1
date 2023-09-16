@@ -4,8 +4,8 @@
     <div class="bg-[#ECE7F9]">
 
         <div class="w-[90%] mx-auto py-[7.4rem] xl:w-[80%] ">
-                <h2 class="font-semibold text-[6vw] mb-[.9rem] text-[#000066] font-[Poppins] md:text-[2rem]">What Our Beneficiary Says</h2>
-            <div class="flex flex-col gap-8 overflow-x-scroll scroll-width p-4"> 
+                <h2 class="font-semibold text-[5vw] mb-[.9rem] text-[#000066] font-[Poppins] md:text-[2rem]">WHAT OUR BENEFICIARY SAYS</h2>
+            <div class="flex md:flex-col flex-row gap-8 overflow-x-scroll scroll-width p-4"> 
 
 
                 <div class="flex px-8  space-x-16 xl:mx-auto">
@@ -66,10 +66,10 @@
                     </div>
                     <div class="bg-white py-[1.2rem] px-[1rem]">
                         <p class="font-[Poppins] text-[.7rem] font-normal text-[#000066]">
-                            This is an informative session from the generation of impact
+                            Can we have the sessions again? as I can't get over this.
                         </p>
                         <small class="font-[Poppins] text-[.7rem] font-semibold text-[#000066]">
-                            Miracle Tower
+                            Precious
                         </small>
                     </div>
                         
@@ -80,10 +80,10 @@
                     </div>
                     <div class="bg-white py-[1.2rem] px-[1rem]">
                         <p class="font-[Poppins] text-[.7rem] font-normal text-[#000066]">
-                            This is an informative session from the generation of impact
+                            Amazing time learning how to covert waste to wealth.
                         </p>
                         <small class="font-[Poppins] text-[.7rem] font-semibold text-[#000066]">
-                            Miracle Tower
+                            Desire
                         </small>
                     </div>
                         

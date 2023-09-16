@@ -1,7 +1,7 @@
 <template>
         <button
          :class="[btnBg, sizeFnt, padding, fntWeight, btnRnd, colorTxt, 'font-[Poppins] py-[.5rem]']"
-        @click="handleClick"> {{props.children}} </button>
+        @click.prevent="handleClick"> {{props.children}} </button>
 </template> 
 
 

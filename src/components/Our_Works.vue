@@ -2,13 +2,13 @@
 
         <div class="py-[5.4rem]">
             <div class="mx-auto w-[90%] xl:w-[80%]">
-                <h2 class="text-[5vw] md:text-[2rem] mb-[2.5rem] mx-auto text-[#000066] font-[Poppins] font-semibold">Our Works Speaks for itself </h2>
+                <h2 class="text-[5vw] md:text-[2rem] mb-[2.5rem] mx-auto text-[#000066] font-[Poppins] font-semibold">OUR WORKS SPEAKS FOR ITSELF </h2>
                 
             </div>
-            <div class="mb-[1rem]">
+            <div class="mb-[1.3rem]">
                 <Our_Products :regNow="sendMessage"/>
             </div>
-            <div class="mb-[1rem]">
+            <div class="mb-[1.3rem]">
                 <Our_Outreaches/>
 
             </div>

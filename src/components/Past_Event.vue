@@ -8,12 +8,12 @@
 
     <div class="overflow-x-scroll flex flex-row gap-8 scroll-width">
         
-            <img src="../assets/img/evone.png" alt=" product one" class="w-[16rem] xl:w-[20rem]">
-            <img src="../assets/img/evtwo.png" alt=" product one" class="w-[16rem] xl:w-[20rem]">
-            <img src="../assets/img/evthree.png" alt=" product one" class="w-[16rem] xl:w-[20rem]">
+            <img src="../assets/img/evone.png" alt=" product one" class="w-[16rem] xl:w-[20rem] object-contain">
+            <img src="../assets/img/evtwo.png" alt=" product one" class="w-[16rem] xl:w-[20rem] object-contain">
+            <img src="../assets/img/evthree.png" alt=" product one" class="w-[16rem] xl:w-[20rem] object-contain">
             
-            <img src="../assets/img/evtwo.png" alt=" product one" class="w-[16rem] xl:w-[20rem]">
-            <img src="../assets/img/evthree.png" alt=" product one" class="w-[16rem] xl:w-[20rem]">
+            <img src="../assets/img/evtwo.png" alt=" product one" class="w-[16rem] xl:w-[20rem] object-contain">
+            <img src="../assets/img/evthree.png" alt=" product one" class="w-[16rem] xl:w-[20rem] object-contain">
             
     </div>
    

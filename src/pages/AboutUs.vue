@@ -21,7 +21,7 @@
                     <img src="../assets/img/abb.png" alt="grid image"/>
             </div>  
             <div class="md:w-[48%] lg:self-center ">
-                <h2 class="font-[Poppins] text-[#000066] font-semibold md:text-[2rem] text-[5vw]">About Us</h2>
+                <h2 class="font-[Poppins] text-[#000066] font-semibold md:text-[2rem] text-[5vw]">ABOUT US</h2>
                 <p class="text-[1rem] text-justify mb-[.9rem] font-regular font-[Poppins]">
                     We convert waste into beautiful aesthetic and functional Eco-friendly products. The processes by which we will provide our solution include: Collection of waste through our monthly clean-ups, Sorting, Washing, Warehousing and converting to beautiful and sustainable Eco-friendly product.
                 </p>
