@@ -10,7 +10,7 @@
             <div class="flex flex-col md:flex-row gap-8 justify-center md:px-0 px-5"> 
 
                     <div class=" md:w-[40%] self-center">
-                        <img src="../assets/img/jracademy.png" class="lg:w-[100%] shadow-lg rounded-[1.3rem] md:w-[24rem] w-[14rem]" alt="">
+                        <img src="../assets/img/jracademy.jpg" class="lg:w-[100%] shadow-lg rounded-[1.3rem] md:w-[24rem] w-[14rem]" alt="">
                     </div>
                     
                     <div class="md:w-[58%] lg:self-center">

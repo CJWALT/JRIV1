@@ -34,7 +34,7 @@
                                 It was an awesome experience,cause we learned how to make an Ottoman chair,Tote bag and school bag using Ankara waste picked from tailor shops.
                             </p>
                             <small class="font-[Poppins] text-[.7rem] font-semibold text-[#000066]">
-                                Miracle Tower
+                               Kikelomo
                             </small>
                         </div>
                             
@@ -55,14 +55,14 @@
                             Impactful session, Dont't borrow money you can't pay"
                         </p>
                         <small class="font-[Poppins] text-[.7rem] font-semibold text-[#000066]">
-                            Moyotoluwa Ewetola
+                            Moyofoluwa Ewetola
                         </small>
                     </div>
                         
                 </div>
                 <div class="flex flex-none flex-row h-[5.5rem] w-[18.25rem] shadow-lg rounded-[1.5rem] overflow-hidden">
-                    <div class="relative w-[8rem]">
-                        <img src="../assets/img/gerus.png" alt="" class="w-full h-full object-cover" >
+                    <div class="relative w-[8rem] bg-[#000066] grid place-items-center  ">
+                        <i class="fa-regular fa-user text-white text-[2rem]"></i>
                     </div>
                     <div class="bg-white py-[1.2rem] px-[1rem]">
                         <p class="font-[Poppins] text-[.7rem] font-normal text-[#000066]">
@@ -75,8 +75,8 @@
                         
                 </div>
                 <div class="flex flex-none flex-row h-[5.5rem] w-[18.25rem] shadow-lg rounded-[1.5rem] overflow-hidden">
-                    <div class="relative w-[8rem]">
-                        <img src="../assets/img/gerus.png" alt="" class="w-full h-full object-cover" >
+                    <div class="relative w-[8rem] bg-[#000066] grid place-items-center">
+                        <i class="fa-regular fa-user text-[2rem] text-white"></i>
                     </div>
                     <div class="bg-white py-[1.2rem] px-[1rem]">
                         <p class="font-[Poppins] text-[.7rem] font-normal text-[#000066]">

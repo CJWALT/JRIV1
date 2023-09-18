@@ -58,7 +58,7 @@
                     </div>
                     <div class="lg:w-[20%] w-[56%] md:w-[40%] grid place-items-center">
                         <div class=" w-[10rem] object-fill mb-1 xl:w-auto"> 
-                            <img src="../assets/img/Lynda.jpg" alt="finadvisor"  class="xl:w-[100%] mx-auto object-cover shadow-lg rounded-[1.5rem]">
+                            <img src="../assets/img/lynda.png" alt="finadvisor"  class="xl:w-[100%] mx-auto object-cover shadow-lg rounded-[1.5rem]">
                         </div>
                         <h4 class="text-[1rem] text-center font-semibold font-[Poppins]  text-[#000066]">
                             Ugwuja Lynda

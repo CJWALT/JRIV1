@@ -9,17 +9,22 @@ import Activities from './pages/Activities.vue'
 import Academy from './pages/Academy.vue'
 import Gallery from './pages/Gallery.vue'
 import Blog from './pages/Blog.vue'
+import NotFound from './pages/NotFound.vue'
 
 const router = createRouter ({ 
     history: createWebHistory(),
     routes: [
-        {path: '/', component: Home},
+        {path: '/', name: 'homepage', component: Home},
         {path:'/about-us', component:AboutUs},
         {path: '/about-us/full', name:'about-us', component: AboutUsPg},
         {path: '/activities', component: Activities},
         {path: '/academy', component: Academy},
         {path: '/gallery', component: Gallery},
-        {path: '/blog', component: Blog}
+        {path: '/blog', component: Blog},
+        {
+            path:"/:Match(.*)*",
+            component:NotFound
+        }
     ]
 });
 

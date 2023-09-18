@@ -1,7 +1,7 @@
 <template> 
 
         <div class="bg-[url('./assets/img/main-bg.jpg')]  h-full overflow-hidden bg-center bg-cover "> 
-            <Header/>
+            <Header logo="Jrlogo" navColor="text-[#000066]" />
             <main class="flex flex-col md:flex-row pt-12 pb-20  gap-8 md:gap-5 relative w-[90%] mx-auto overflow-hidden xl:w-[80%] xl:gap-8 ">
                 <div class="pt-8 md:order-1 md:w-[58%] md:self-center order-2 xl:w-[50%]">
                     <h2 class="font-bold mb-2 text-[9vw] md:text-[5vw] text-[#000066] leading-none font-[Poppins] xl:text-[4vw] ">

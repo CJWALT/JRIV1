@@ -54,21 +54,22 @@
                 <h4 class="font-[Poppins] font-bold mb-1 ">Permalinks</h4>
                 <ul>
                     <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/" class="">Home</router-link> </li>
-                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="#">About</router-link></li>
-                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="#">Activities</router-link></li>
-                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="#">Gallery</router-link></li>
-                    <li class="font-[Poppins] font-medium"><router-link to="#">Blog</router-link>    </li>
+                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/ab">About</router-link></li>
+                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/ac">Activities</router-link></li>
+                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/gal">Gallery</router-link></li>
+                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/academy">Academy</router-link></li>
+                    <li class="font-[Poppins] font-medium"><router-link to="/bk">Blog</router-link>    </li>
                 </ul>
                 
             </div>  
             <div class="mt-[2rem] font-[Poppins]">
                 <h4 class="text-[1rem] font-bold mb-1">Policies</h4>
                 <ul class="font-medium">
-                    <li class="mb-[.6rem]"><router-link to="#">Shipping Policy</router-link></li>
-                    <li class="mb-[.6rem]"><router-link to="#">Refund Policy</router-link></li>
-                    <li class="mb-[.6rem]"><router-link to="#">Terms and Condition</router-link></li>
-                    <li class="mb-[.6rem]"><router-link to="#">Privacy Policy</router-link></li>
-                    <li><router-link to="#">Payment</router-link></li>
+                    <li class="mb-[.6rem]"><router-link to="/sh">Shipping Policy</router-link></li>
+                    <li class="mb-[.6rem]"><router-link to="/re">Refund Policy</router-link></li>
+                    <li class="mb-[.6rem]"><router-link to="/te">Terms and Condition</router-link></li>
+                    <li class="mb-[.6rem]"><router-link to="/pr">Privacy Policy</router-link></li>
+                    <li><router-link to="/py">Payment</router-link></li>
                 </ul>
             </div>
             <div class="mt-[2rem] flex flex-col gap-8">
