@@ -35,7 +35,7 @@
             <div class="md:w-[30%]"> 
 
                 <div class="w-[5.8rem] mb-[.9rem]">
-                   <router-link to="/"><img src="../assets/img/jrilogo.png" alt="just logo 2" /></router-link>
+                   <router-link to="/"><img src="/img/jrilogo.png" alt="just logo 2" /></router-link>
                 </div>
                 <p class="font-[Poppins] font-normal text-[.8rem] w-[62vw] md:w-auto xl:w-[80%] lg:w-[90%] mb-[1.7rem]">
                     We convert waste into beautiful, aesthetic and functional eco-friendly products. 
