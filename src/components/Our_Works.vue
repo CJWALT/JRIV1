@@ -5,10 +5,10 @@
                 <h2 class="text-[5vw] md:text-[2rem] mb-[2.5rem] mx-auto text-[#000066] font-[Poppins] font-semibold">OUR WORKS SPEAKS FOR ITSELF </h2>
                 
             </div>
-            <div class="mb-[1.3rem]">
+            <div class="mb-[.6rem]">
                 <Our_Products :regNow="sendMessage"/>
             </div>
-            <div class="mb-[1.3rem]">
+            <div class="mb-[.6rem]">
                 <Our_Outreaches/>
 
             </div>

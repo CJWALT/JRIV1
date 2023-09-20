@@ -25,7 +25,7 @@
                         />
                 </div>
                 <div class="p-3 rounded-lg bg-gray-700 lg:hidden bg-opacity-10">
-                    <i class="fa-solid fa-bars cursor-pointer text-[1.5rem]"
+                    <i :class="[props.menuColor, 'fa-solid fa-bars cursor-pointer text-[1.5rem]']"
                         @click="toggleNav"></i>
                 </div>  
         </div>
@@ -45,6 +45,7 @@
     const props = defineProps({ 
         logo:String,
         navColor:String,
+        menuColor:String,
     })
 
     const toggleNav = () =>{ 
