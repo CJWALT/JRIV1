@@ -16,7 +16,7 @@ leaders with proven records in the sector.</p>
 
     <div class="mx-auto w-[90%] flex flex-col gap-[2rem] py-[4rem] items-center">
         <div class="">
-            <img src="../assets/img/jracademy.png" />
+            <img src="../assets/img/jracademy.jpg" class="rounded-[1.6rem] shadow-lg" />
         </div>
         <div class="">
             <p class="text-[1rem] font-[Poppins] font-normal text-justify mb-[.7rem]">
