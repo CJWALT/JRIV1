@@ -8,7 +8,7 @@
                 <div :class="{'hidden' : !openNav, 'block': openNav}" class="absolute z-10 top-0 right-0 bg-[#a2a2cc] rounded-md p-8 text-red-400 font-[Poppins] lg:w-[70%] lg:relative lg:flex lg:flex-row lg:justify-between lg:gap-5 lg:p-0 lg:bg-transparent xl:w-[58%]">
                     <ul :class="[props.navColor, 'font-semibold text-[1rem] mb-4 grid gap-2 lg:flex lg:self-center lg:mb-0 lg:gap-5' ]">
                         <li class="relative"><router-link to ="/"  exact  active-class="active" @click="toggleNav"> Home</router-link> </li>
-                        <li class="relative"><router-link to ="/abut-us"  exact  active-class="active" @click="toggleNav"> About </router-link></li>
+                        <li class="relative"><router-link to ="/about-us/full"  exact  active-class="active" @click="toggleNav"> About </router-link></li>
                         <li class="relative"><router-link to="/actities"  exact  active-class="active" @click="toggleNav"> Activities</router-link> </li>
                         <li class="relative"><router-link to="/academy" exact   active-class="active" @click="toggleNav"> Academy</router-link> </li>
                         <li class="relative"><router-link to="/gally" exact   active-class="active" @click="toggleNav"> Gallery</router-link> </li>

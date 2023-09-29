@@ -12,7 +12,7 @@ import Blog from './pages/Blog.vue'
 import NotFound from './pages/NotFound.vue'
 
 const router = createRouter ({ 
-    history: createWebHistory(),
+    history: createWebHistory('/'),
     routes: [
         {path: '/', name: 'homepage', component: Home},
         {path:'/about-us', component:AboutUs},
