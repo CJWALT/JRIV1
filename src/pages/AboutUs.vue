@@ -2,7 +2,8 @@
 
     <div class="bg-[#F2F2F7] relative py-[7.4rem] rounded-tr-[8rem] "> 
        <div class="w-[90%] xl:w-[80%] md:flex-row flex flex-col lg:gap-10 md:gap-10 gap-4 py-4 mx-auto">  
-            <div class="md:w-[40%] w-[60%] md:self-center md:order-1 order-2">
+        <h2 class="font-[Poppins] text-[#000066] font-semibold md:text-[2rem] text-[5vw]">ABOUT US</h2>   
+        <div class="md:w-[40%] md:self-center">
                     <!-- <div class="img-oneU h-20 border-2 border-red-400 w-20">
                         <img src="../assets/img/img-one.png" alt="people gathering" class="w-[40vw] object-contain rounded-[1rem] shadow-lg h-auto"/>
                     </div>
@@ -20,8 +21,8 @@
                     </span> -->
                     <img src="../assets/img/abb.png" alt="grid image"/>
             </div>  
-            <div class="md:w-[60%] lg:self-center md:order-1 ">
-                <h2 class="font-[Poppins] text-[#000066] font-semibold md:text-[2rem] text-[5vw]">ABOUT US</h2>
+            <div class="md:w-[60%] lg:self-center">
+                
                 <p class="text-[.7rem] lg:text-[1rem] md:text-justify mb-[.9rem] font-regular font-[Poppins]">
                     We convert waste into beautiful aesthetic and functional Eco-friendly products. The processes by which we will provide our solution include: Collection of waste through our monthly clean-ups, Sorting, Washing, Warehousing and converting to beautiful and sustainable Eco-friendly product.
                 </p>
@@ -30,6 +31,7 @@
 
                 </p>
                 <Button children="Learn More"
+                weightFont="font-bold"
                  btnPd="px-[1.5rem]" 
                  bgColor="bg-[#FFA235]" 
                  btnRounded="rounded-[1.5rem]"

@@ -1,5 +1,5 @@
 <template>  
-        <div class="w-[80%] md:w-auto text-center items-center flex flex-col gap-[.6rem]"> 
+        <div class="w-[80%] md:w-auto xl:w-[90%] text-center items-center flex flex-col gap-[.6rem]"> 
 
             <div class="w-[4rem] h-[4rem]"> 
                 <img :src="getIcon(props.icon)" alt="icon">
