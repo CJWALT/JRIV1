@@ -13,8 +13,8 @@
                         <img src="../assets/img/jracademy.jpg" class="lg:w-[100%] shadow-lg rounded-[1.3rem] md:w-[24rem] w-[14rem]" alt="">
                     </div>
                     
-                    <div class="md:w-[58%] lg:self-center">
-                        <p class=" mb-[.8rem] text-justify md:text-left text-[1rem] font-normal font-[Poppins]">
+                    <div class="md:w-[58%] md:self-center">
+                        <p class=" mb-[.8rem] text-justify text-[.7rem] lg:text-[1rem] font-normal font-[Poppins]">
                             The JRI Academy is an engaging 6-week program slated to take begin on October 21, 2023, with a combination of lectures, workshops, hands-on activities, and an environmental-based capstone project. The weekly sessions will hold via Google Meet virtually from 4:00 pm - 6:00 pm each weekend (Saturday and Sunday) throughout the period of the fellowship. All participants are therefore advised to attend and ensure full participation in the session. 
                             The academy will be crowned by the "I Think Recycle Festival" where all knowledge gained through the period of the academy will be put into physical practice.
                         </p>

@@ -5,7 +5,7 @@
         
     
     
-    <section class="py-[7.4rem] bg-[url('./assets/img/sub-banner.png')] bg-cover bg-no-repeat mb-[7.5rem]" >
+    <section class="py-[7.4rem] bg-[url('./assets/img/ourtwo.png')] shadow-lg aboutus-banner mb-[7.5rem]" >
 
         <div class="w-[90%] xl:w-[80%] mx-auto items-center text-center flex flex-col">
             <h3 class="text-[#ffff] text-[4vw] md:text-[2rem] font-[Poppins] font-semibold  ">Subscribe to our newsletter </h3>

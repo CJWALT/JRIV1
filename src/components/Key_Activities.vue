@@ -9,10 +9,16 @@
             <div class="px-5 gap-10 flex flex-col md:flex-row md:flex-wrap md:gap-10 md:justify-center xl:gap-y-10 xl:gap-10 lg:px-0 xl:px-5"> 
 
 
-                    <div v-for="item in activity_items" :key="item.id" class="flex text-center flex-col md:w-[45%] lg:w-[30%] xl:w-[30%] ">
-                        <img :src="getIcon(item.icon)" alt="" class="mx-auto">
+                    <div v-for="item in activity_items" :key="item.id" class=" text-center grid place-items-center md:block align-center md:w-[45%] lg:w-[30%] xl:w-[30%] ">
+                        <Card
+                            :icon="item.icon"
+                            :title="item.title"
+                            :text="item.text"
+                        />
+                      
+                        <!-- <img :src="getIcon(item.icon)" alt="" class="mx-auto">
                         <h4 class="text-[#000066] font-[Poppins] text-[1.4rem] font-semibold mb-[.5rem]">{{ item.title }}</h4>
-                        <p class="font-[Poppins] font-normal text-[1rem]">{{item.text}}</p>
+                        <p class="font-[Poppins] font-normal text-[1rem]">{{item.text}}</p> -->
                     </div>
             </div>
 
@@ -24,6 +30,7 @@
     
     import { getIcon } from '../iconutil.js'
     import activity_data from '../activity_data.json'
+import Card from './Card.vue';
 
     const activity_items= activity_data
 </script>

@@ -98,7 +98,7 @@ input::placeholder{
    background-size: cover;
    /* background:url('../src/assets/img/aboutus.jpg') no-repeat center/cover; */
    background-color: #0000669e;
-   border-radius: 0 0 190px 0;
+   /* border-radius: 0 0 190px 0; */
    
    /* filter: brightness(1.6); */
    background-blend-mode:soft-light; 

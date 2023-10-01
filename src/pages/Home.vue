@@ -7,7 +7,7 @@
                     <h2 class="font-bold mb-2 text-[9vw] md:text-[5vw] text-[#000066] leading-none font-[Poppins] xl:text-[4vw] ">
                         We convert waste <br/> to wealth
                     </h2>
-                    <small class="block font-[poppins] font-medium text-[#0F0229] mb-6 text-[1rem]">
+                    <small class="block font-[poppins] font-medium text-[#0F0229] mb-6 text-[.8rem] md:text-[1rem] ">
                         Waste is everywhere, Recycle one, Save Much.
                     </small>
                     <div>
