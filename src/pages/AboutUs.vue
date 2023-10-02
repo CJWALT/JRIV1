@@ -1,8 +1,12 @@
 <template> 
 
     <div class="bg-[#F2F2F7] relative py-[7.4rem] rounded-tr-[8rem] "> 
-       <div class="w-[90%] xl:w-[80%] md:flex-row flex flex-col lg:gap-10 md:gap-10 gap-4 py-4 mx-auto">  
+        
+        <div class="w-[90%] xl:w-[80%] mx-auto">
         <h2 class="font-[Poppins] text-[#000066] font-semibold md:text-[2rem] text-[5vw]">ABOUT US</h2>   
+                
+      
+        <div class=" md:flex-row flex flex-col lg:gap-10 md:gap-10 gap-4 py-4 ">  
         <div class="md:w-[40%] md:self-center">
                     <!-- <div class="img-oneU h-20 border-2 border-red-400 w-20">
                         <img src="../assets/img/img-one.png" alt="people gathering" class="w-[40vw] object-contain rounded-[1rem] shadow-lg h-auto"/>
@@ -39,6 +43,8 @@
                  :handleClick="navAboutUs" />
             </div>
         </div>
+        </div>
+      
     </div>
 </template>
 

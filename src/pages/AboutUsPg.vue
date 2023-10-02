@@ -1,7 +1,7 @@
 <template>
   <div class="h-auto aboutus-banner shadow-xl bg-[url('../src/assets/img/aboutus.jpg')]">
     <Header navColor="text-white" logo="jrilogo" menuColor="text-white" />
-    <div class="w-[90%] xl:w-[80%] mx-auto pt-[7.2rem] h-[32rem]">
+    <div class="w-[90%] xl:w-[80%] mx-auto pt-[7.2rem] h-[28rem] lg:h-[32rem]">
       <div class="">
         <h2
           class="font-[Poppins] font-bold text-[10vw] text-center text-white md:text-[3.5rem]"
@@ -19,7 +19,7 @@
   </div>
 
   <div class="w-[90%] mx-auto xl:w-[80%]">
-    <p class="py-[5rem] text-justify font-[Poppins]">
+    <p class="py-[5rem] text-[.7rem] md:text-[1rem] font-normal text-justify font-[Poppins]">
       We convert waste into beautiful aesthetic and functional Eco-friendly
       products. The processes by which we will provide our solution include:
       Collection of waste through our monthly clean-ups, Sorting, Washing,

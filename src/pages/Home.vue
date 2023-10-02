@@ -25,10 +25,11 @@
                     <img src="../assets/img/main-banner.png" alt="" class="xl:w-[100%] object-contain">
                 </div>
             </main>
+            <AboutUs />
         </div>
 
 
-        <AboutUs />
+        
         <Our_drive/>
         <Key_Activities/>
         <UpcomingEvents :sendMessage="sendWhatsapp"/>
