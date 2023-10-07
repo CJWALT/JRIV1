@@ -8,7 +8,7 @@
                     <img :src="`/img/${event_item.banner}`" :alt="event_item.id" class="object-cover rounded-[1rem] shadow-lg"/>
                 </div>
                 <div class="w-[50vw] md:w-[32vw] lg:w-[24vw] xl:w-[80%]">
-                    <p class="font-[Poppins] font-normal text-[.7rem] md:text-[.8rem] text-center">{{event_item.title}}</p>
+                    <p class="font-[Poppins] text-[#000066] font-normal text-[.7rem] md:text-[.8rem] text-center">{{event_item.title}}</p>
                     
                 </div>
                 

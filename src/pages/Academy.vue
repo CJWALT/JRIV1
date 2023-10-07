@@ -1,9 +1,9 @@
 <template>
 
     
-<div class="h-auto aboutus-banner shadow-xl bg-[url('../src/assets/img/acabanner.jpg')]">
+<div class="h-auto aboutus-banner shadow-xl bg-[url('../src/assets/img/acabanner.jpg')] rounded-br-[190px]">
     <Header navColor="text-white" logo="jrilogo" menuColor="text-white" />
-    <div class="w-[90%] xl:w-[80%] mx-auto pt-[7.2rem] h-[28rem] lg:h-[32rem]">
+    <div class="w-[90%] xl:w-[80%] mx-auto pt-[6.2rem] h-[28rem]">
         <div class="">
             <h2 class="font-[Poppins] font-bold text-[10vw] text-center text-white md:text-[3.5rem]">JRI ACADEMY</h2>
             <p class="text-white text-[2vw] md:text-[1rem] font-[Poppins] font-medium text-center lg:w-[70%] xl:w-[60%] lg:mx-auto" >A six-week weekend value-packed academy on waste management, featuring 
@@ -31,10 +31,11 @@ leaders with proven records in the sector.</p>
             </p>
             <Button children="Register Now"
              btnPd="px-[1.5rem]"
-              btnRounded="rounded-[1.5rem]"
-               bgColor="bg-[#FFA235]"
-               fntColor="text-white"
-               weightFont="text-bold"/>
+             btnRounded="rounded-[1.5rem]"
+             bgColor="bg-[#FFA235]"
+             fntColor="text-white"
+             weightFont="text-bold"
+             :handleClick="apply"/>
         </div>
     </div>
 
@@ -127,7 +128,16 @@ Upon completion of the program, students will have:
 
 
 <script setup>
+    import { inject } from 'vue';
     import Header from '../components/Header.vue'
     import Button from '../components/Button.vue'
     import Card from '../components/Card.vue'
+
+    
+    const { functions } = inject('globalStore');
+
+    const apply = () =>{ 
+        functions.applyNow()
+    }
+
 </script>

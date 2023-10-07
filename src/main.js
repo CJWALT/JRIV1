@@ -28,7 +28,19 @@ const router = createRouter ({
     ]
 });
 
+
+const globalStore ={ 
+    functions:{
+        applyNow : ()=>{ 
+            const googleForm = 'http://bit.ly/JRIAcademyApplication'
+            window.open(googleForm, '_blank')
+        }
+    }
+}
+
 const app = createApp(App); 
 
 app.use(router);
+app.provide('globalStore', globalStore);
 app.mount('#app');
+

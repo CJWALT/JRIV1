@@ -19,7 +19,12 @@
                             The academy will be crowned by the "I Think Recycle Festival" where all knowledge gained through the period of the academy will be put into physical practice.
                         </p>
                         <div class="self-center flex flex-col items-center md:block"> 
-                            <Button children="Apply Now" bgColor="bg-[#FFA235]" btnRounded="rounded-[1.5rem]" btnPd="px-[1.5rem]" fntColor="text-white" :handleClick="applyNow"/>
+                            <Button children="Apply Now"
+                                bgColor="bg-[#FFA235]"
+                                btnRounded="rounded-[1.5rem]" 
+                                btnPd="px-[1.5rem]"
+                                fntColor="text-white" 
+                                :handleClick="apply"/>
                         </div>
                     </div>
             </div>
@@ -33,9 +38,12 @@
 <script setup>
         import Button from './Button.vue'
 
-        const applyNow = () => {
-            const googleForm = 'http://bit.ly/JRIAcademyApplication'
+        import { inject } from 'vue'
 
-            window.open(googleForm, '_blank')
+        const { functions } = inject('globalStore');
+
+        const apply = () =>{ 
+            functions.applyNow()
         }
+
 </script>
