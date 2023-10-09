@@ -79,8 +79,9 @@
                 </div>
                 <div>
                     <h4 class="font-bold font-[Poppins] text-[1rem]">Customer Support</h4>
-                    <a href="mailto:info@justtravels.com" class="font-medium text-[1rem] block font-[Poppins]"><i class="fa-regular fa-envelope"></i> info@justtravels.com</a>
-                    <a href="tel:+2347059994436" class="font-medium text-[1rem] font-[Poppins]"><i class="fa-solid fa-phone"></i> +2347059994436</a>
+                    <a href="mailto:info@justtravels.com" class="font-medium text-[1rem] block font-[Poppins]"><i class="fa-regular fa-envelope"></i> justrecycle1@gmail.com</a>
+                    <a href="tel:+2347059994436" class="font-medium text-[1rem] font-[Poppins]"><i class="fa-solid fa-phone"></i> +2347069694395
+                    </a>
                 </div>
             </div>
         </div>
