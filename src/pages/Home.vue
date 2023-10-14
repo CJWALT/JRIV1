@@ -1,6 +1,6 @@
 <template> 
 
-        <div class="bg-[url('./assets/img/main-bg.jpg')]  h-full overflow-hidden bg-center bg-cover "> 
+        <div class="bg-[url('./assets/img/main-bg.jpg')]  h-full overflow-hidden bg-center bg-cover" > 
             <Header logo="Jrlogo" navColor="text-[#000066]" menuColor="text-black"/>
             <main class="flex flex-col md:flex-row pt-12 pb-20  gap-8 md:gap-5 relative w-[90%] mx-auto overflow-hidden xl:w-[80%] xl:gap-8 ">
                 <div class="pt-8 md:order-1 md:w-[58%] md:self-center order-2 xl:w-[50%]">
@@ -42,6 +42,12 @@
 
 
 <script setup> 
+
+
+    import AOS from 'aos';
+    import 'aos/dist/aos.css';
+
+    import { getCurrentInstance } from 'vue';
     import Header from '../components/Header.vue'
     import Button from '../components/Button.vue'
     import AboutUs from '../pages/AboutUs.vue'
@@ -66,5 +72,14 @@
 
         window.open(no, '_blank')
     }
+
+
+
+
+    const instance = getCurrentInstance();
+    
+    instance.appContext.config.globalProperties.$aos.init();
+
+
 
 </script>

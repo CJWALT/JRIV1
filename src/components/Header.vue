@@ -9,7 +9,7 @@
                     <ul :class="[props.navColor, 'font-semibold text-[1rem] mb-4 grid gap-2 lg:flex lg:self-center lg:mb-0 lg:gap-5' ]">
                         <li class="relative"><router-link to ="/"  exact  active-class="active" @click="toggleNav"> Home</router-link> </li>
                         <li class="relative"><router-link to ="/about-us/full"  exact  active-class="active" @click="toggleNav"> About </router-link></li>
-                        <li class="relative"><router-link to="/activit"  exact  active-class="active" @click="toggleNav"> Activities</router-link> </li>
+                        <li class="relative"><router-link to="/activies"  exact  active-class="active" @click="toggleNav"> Activities</router-link> </li>
                         <li class="relative"><router-link to="/academy" exact   active-class="active" @click="toggleNav"> Academy</router-link> </li>
                         <li class="relative"><router-link to="/gally" exact   active-class="active" @click="toggleNav"> Gallery</router-link> </li>
                         <li class="relative"><router-link to="/blo"  exact active-class="active"  @click="toggleNav"> Blog</router-link> </li>

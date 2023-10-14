@@ -3,7 +3,7 @@
     <div class="bg-[#F2F2F7] relative py-[7.4rem] rounded-tr-[8rem] "> 
         
         <div class="w-[90%] xl:w-[80%] mx-auto">
-        <h2 class="font-[Poppins] text-[#000066] font-semibold md:text-[2rem] text-[5vw]">ABOUT US</h2>   
+        <h2 data-aos="fade-out" data-aos-duration="300ms" data-easing="ease-in" class="font-[Poppins] text-[#000066] font-semibold md:text-[2rem] text-[5vw]">ABOUT US</h2>   
                 
       
         <div class=" md:flex-row flex flex-col lg:gap-10 md:gap-10 gap-4 py-4 ">  
@@ -23,9 +23,9 @@
                     </div>
                     <span class="h-20 abs-boxTwo bg-[#000066] w-[9rem] rounded-[0.5rem] ">
                     </span> -->
-                    <img src="../assets/img/abb.png" alt="grid image"/>
+                    <img src="../assets/img/abb.png" alt="grid image" data-aos="fade-out" data-aos-duration="200ms" data-easing="ease-in" />
             </div>  
-            <div class="md:w-[60%] lg:self-center">
+            <div data-aos="fade-out" data-aos-duration="300s" data-easing="ease-in" class="md:w-[60%] lg:self-center">
                 
                 <p class="text-[.7rem] lg:text-[1rem] md:text-justify mb-[.9rem] font-regular font-[Poppins]">
                     We convert waste into beautiful aesthetic and functional Eco-friendly products. The processes by which we will provide our solution include: Collection of waste through our monthly clean-ups, Sorting, Washing, Warehousing and converting to beautiful and sustainable Eco-friendly product.
@@ -40,7 +40,9 @@
                  bgColor="bg-[#FFA235]" 
                  btnRounded="rounded-[1.5rem]"
                  fntColor="text-white"
-                 :handleClick="navAboutUs" />
+                 :handleClick="navAboutUs" 
+                 data-aos="fade-out" data-aos-duration="300s" data-easing="ease-in"
+                 />
             </div>
         </div>
         </div>
