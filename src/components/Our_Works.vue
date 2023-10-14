@@ -13,10 +13,10 @@
                 />
             </div>
             
-            <div data-aos="zoom-in-left" data-aos-duration="300s" data-aos-easing="ease-out" class="">
+            <div data-aos="zoom-in" data-aos-duration="300s" data-aos-easing="ease-out" class="">
                 <Our_Outreaches/>
             </div>
-            <div data-aos="zoom-in" data-aos-duration="600s" data-aos-easing="ease-in">
+            <div data-aos="fade-up" data-aos-duration="600s" data-aos-easing="ease-in-out">
                 <Past_Event/>
             </div>
         </div>
