@@ -121,6 +121,51 @@ input::placeholder{
 }
 
 
+h1::before, h1::after{ 
+   content: " "; 
+   position:absolute;
+   top:0; 
+   right:0; 
+   bottom:0; 
+   left:0;
+}
+
+h1:before{ 
+   background:teal; 
+   animation:typewriter 4s steps(5) forwards;
+}
+
+@keyframes typewriter{ 
+   to{ 
+      left:100%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
 
 @media screen and (min-width:768px){ 
    .academy-learn > div {
