@@ -54,8 +54,8 @@
                 <h4 class="font-[Poppins] font-bold mb-1 ">Permalinks</h4>
                 <ul>
                     <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/" class="">Home</router-link> </li>
-                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/ab">About</router-link></li>
-                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/ac">Activities</router-link></li>
+                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/about-us/full">About</router-link></li>
+                    <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/actities">Activities</router-link></li>
                     <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/gal">Gallery</router-link></li>
                     <li class="font-[Poppins] font-medium mb-[.6rem]"><router-link to="/academy">Academy</router-link></li>
                     <li class="font-[Poppins] font-medium"><router-link to="/bk">Blog</router-link>    </li>
@@ -72,7 +72,7 @@
                     <li><router-link to="/py">Payment</router-link></li>
                 </ul>
             </div>
-            <div class="mt-[2rem] flex flex-col gap-8">
+            <div class="mt-[2rem] lg:flex-col lg:w-auto lg:justify-normal md:flex-row md:justify-between md:w-[100%] flex flex-col gap-8">
                 <div>
                     <h4 class="font-bold font-[Poppins] text-[1rem]">Business Enquiry</h4>
                     <small class="font-medium text-[1rem] font-[Poppins] "> <i class="fa-solid fa-location-dot"></i> 25, Efosa Street, off Agbonma Street, <br/> Ekehuan Road, Benin City, Edo State.</small>
@@ -106,7 +106,7 @@
     import { initializeApp } from "firebase/app";
     // import { getAnalytics } from "firebase/analytics";
 
-    import {getFirestore, collection, addDoc} from 'firebase/firestore';
+    import {getFirestore, collection, addDoc, getDocs, query, where} from 'firebase/firestore';
     
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -129,13 +129,39 @@ const db = getFirestore(app);
 
 const email = ref(' ')
 
-const newSubscriber = () =>{ 
-    addDoc( collection (db, 'emailId') ,{ 
-        email:email.value
+const newSubscriber = async () =>{ 
+
+    const emailValue = email.value.trim();
+
+    // Regular expression pattern to validate email
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\.com$/;
+
+    // Check if the email matches the pattern
+    if (!emailPattern.test(email.value)) {
+        // If email doesn't match the pattern, show an error message
+        alert('Please enter a valid Gmail or Yahoo email address');
+        return; // Exit the function without adding the subscriber
+    }
+
+    const emailExists = await checkIfEmailExists(emailValue)
+
+    if (emailExists) { 
+        alert('Email already Subscribed')
+        return;
+    }
+
+    await addDoc( collection (db, 'emailId') ,{ 
+        email:emailValue
        })    
     
-       alert('Subscribe successfully')
+       alert('Subscribed successfully')
+       
        
 }
 
+
+const checkIfEmailExists = async (email) => {
+    const querySnapshot = await getDocs(query(collection(db, 'emailId'), where('email', '==', email)));
+    return !querySnapshot.empty; // Returns true if email exists, false otherwise
+};
 </script>

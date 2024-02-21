@@ -22,15 +22,13 @@
     </div>
   </div>    
 
-  <div class="w-[90%] mx-auto flex flex-col md:flex-row md:flex-wrap justify-center py-[5rem] px-5 gap-5">
+  <div class="w-[90%] mx-auto flex flex-col border-2 border-red-400 md:border-2 md:border-green-400 md:flex-row  justify-center py-[5rem] px-5 gap-5">
     <div v-for="item in activity_items" 
     :key="item.id"
-    class="text-center py-[1rem] grid place-items-center md:block align-center md:w-[45%] lg:w-[30%] xl:w-[30%] " 
-    :style="{
-        backgroundColor: 'rgba(255, 0, 0, 0.6), rgba(0, 0, 255, 0.6)',
-        backgroundImage:'url(.../assets/img/acabanner.jpg)' 
-    } ">
-        <Card
+    class="">
+        <ActivitiesCard
+            :bgColor="item.bgColor"
+            :bgOpacity="item.bgOpacity"
             :icon="item.icon"   
             :title="item.title"
             :text="item.text"
@@ -42,6 +40,27 @@
     <UpcomingEvent/>
   </div>
 
+   <!-- ourOutreaches -->
+
+
+    <section > 
+      <div class="border-red border-red-400">
+        <div>
+          <h2> Our Outreaches </h2>
+          <div>
+            <div>
+              <img src="../assets/img/bagbg.png" alt="bag ankara">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </section>
+
+
+   <!-- end of our ourtreaches -->
+
+
   <div>
     <Humble_Act />
  </div>
@@ -52,10 +71,10 @@
 <script setup> 
     import Header from '../components/Header.vue'
     import Humble_Act from '../components/Humble_Act.vue';
-    import activity_data from '../activity_data.json'
+    import activity_data from '../activities_card_data.json'
     import Testimonial from '../components/Testimonial.vue';
     import UpcomingEvent from '../components/UpcomingEvent.vue';
-import Card from '../components/Card.vue';
+    import ActivitiesCard from '../components/ActivitiesCard.vue';
     
     
     const activity_items= activity_data

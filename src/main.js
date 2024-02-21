@@ -1,8 +1,6 @@
 
 import { createApp } from 'vue'
 import './style.css'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 import {createRouter, createWebHistory} from 'vue-router';
 import App from './App.vue'
 import Home from './pages/Home.vue'
@@ -34,7 +32,6 @@ const router = createRouter ({
 const app = createApp(App); 
 
 
-app.config.globalProperties.$aos = AOS;
 
 const globalStore ={ 
     functions:{

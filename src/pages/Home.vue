@@ -42,12 +42,7 @@
 
 
 <script setup> 
-
-
-    import AOS from 'aos';
-    import 'aos/dist/aos.css';
-
-    import { getCurrentInstance } from 'vue';
+    
     import Header from '../components/Header.vue'
     import Button from '../components/Button.vue'
     import AboutUs from '../pages/AboutUs.vue'
@@ -59,8 +54,7 @@
     import Our_team from '../components/Our_team.vue'
     import Humble_Act from '../components/Humble_Act.vue'
     import Testimonial from '../components/Testimonial.vue'
-
-
+   
     const joinWhatsappGroup = () =>{
         const groupLink = 'http://bit.ly/JRI_Genius'
 
@@ -73,13 +67,5 @@
         window.open(no, '_blank')
     }
 
-
-
-
-    const instance = getCurrentInstance();
     
-    instance.appContext.config.globalProperties.$aos.init();
-
-
-
 </script>
