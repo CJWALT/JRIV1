@@ -43,22 +43,51 @@
    <!-- ourOutreaches -->
 
 
-    <section > 
-      <div class="border-red border-red-400">
-        <div>
-          <h2> Our Outreaches </h2>
+    <section class="w-[90%] mx-auto pt-[3rem] pb-[5rem]"> 
+      
+        <div class="">
+          <h2 class="font-[Poppins] text-[#000066] text-[2rem] mb-[.7rem]"> Our Outreaches </h2>
           <div>
-            <div>
-              <img src="../assets/img/bagbg.png" alt="bag ankara">
+            <div class="flex w-[80%] mx-auto flex-col gap-8 items-center md:flex-row md:flex-wrap justify-center">
+              <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+              <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+              <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+              <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+              <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+              <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
             </div>
           </div>
         </div>
 
-      </div>
       </section>
 
 
    <!-- end of our ourtreaches -->
+
+       
+   <!-- our past events -->
+
+   <section class="w-[90%] mx-auto bg-[#F2F2F7] pt-[3rem] pb-[5rem]"> 
+      
+      <div class="">
+        <h2 class="font-[Poppins] text-[#000066] text-[2rem] mb-[.7rem]"> Our Past Events </h2>
+        <div>
+          <div class="flex w-[80%] mx-auto flex-col gap-8 items-center md:flex-row md:flex-wrap justify-center">
+            <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+            <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+            <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+            <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+            <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+            <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+ 
+   <!-- end of our past events -->
 
 
   <div>
