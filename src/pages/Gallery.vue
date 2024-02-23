@@ -14,13 +14,31 @@
             <p
               class="text-white text-[3vw] md:text-[1rem] font-[Poppins] font-medium text-center md:w-[75%] lg:w-[60%] xl:w-[58%] md:mx-auto"
             >
-    
-            We convert waste to Fashion, Furniture, and Art (FFA). We also empower
-youths and women from low Income background.
+                We convert waste to Fashion, Furniture, and Art (FFA). We also empower
+                youths and women from low Income background.
             </p>
           </div>
         </div>
-      </div>    
+      </div>  
+
+      <!-- waste to fashion section  -->
+      <section class="border-2 w-[78%] mx-auto border-red-400">
+          <div> 
+
+            <h2>Waste to fashion</h2>
+            <div>
+              <img src="../assets/img/evone.png"/>
+              <img src="../assets/img/evone.png"/>
+              <img src="../assets/img/evone.png"/>
+              <img src="../assets/img/evone.png"/>
+            </div>
+
+          </div> 
+      </section>  
+      <!-- end -->
+
+
+      <!-- waste to furniture -->
 </template>
 
 <script setup> 
