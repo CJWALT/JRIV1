@@ -67,9 +67,9 @@
        
    <!-- our past events -->
 
-   <section class="w-[90%] mx-auto bg-[#F2F2F7] pt-[3rem] pb-[5rem]"> 
+   <section class="bg-[#F2F2F7] pt-[3rem] pb-[5rem]"> 
       
-      <div class="">
+      <div class="w-[90%] mx-auto">
         <h2 class="font-[Poppins] text-[#000066] text-[2rem] mb-[.7rem]"> Our Past Events </h2>
         <div>
           <div class="flex w-[80%] mx-auto flex-col gap-8 items-center md:flex-row md:flex-wrap justify-center">
