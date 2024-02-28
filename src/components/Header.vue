@@ -11,7 +11,7 @@
                         <li class="relative"><router-link to ="/about-us/full"  exact  active-class="active" @click="toggleNav"> About </router-link></li>
                         <li class="relative"><router-link to="/actities"  exact  active-class="active" @click="toggleNav"> Activities</router-link> </li>
                         <li class="relative"><router-link to="/academy" exact   active-class="active" @click="toggleNav"> Academy</router-link> </li>
-                        <li class="relative"><router-link to="/gallery" exact   active-class="active" @click="toggleNav"> Gallery</router-link> </li>
+                        <li class="relative"><router-link to="/gay" exact   active-class="active" @click="toggleNav"> Gallery</router-link> </li>
                         <li class="relative"><router-link to="/blo"  exact active-class="active"  @click="toggleNav"> Blog</router-link> </li>
                     </ul>
                     <Button bgColor='bg-[#FFA235]'

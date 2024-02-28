@@ -22,7 +22,7 @@
     </div>
   </div>    
 
-  <div class="w-[90%] mx-auto flex flex-col border-2 border-red-400 md:border-2 md:border-green-400 md:flex-row  justify-center py-[5rem] px-5 gap-5">
+  <div class="w-[90%] xl:w-[80%] mx-auto flex flex-col border-2 border-red-400 md:border-2 md:border-green-400 md:flex-row  justify-center py-[5rem] px-5 gap-5">
     <div v-for="item in activity_items" 
     :key="item.id"
     class="">
@@ -43,10 +43,10 @@
    <!-- ourOutreaches -->
 
 
-    <section class="w-[90%] mx-auto pt-[3rem] pb-[5rem]"> 
+    <section class="w-[90%] xl:w-[80%] mx-auto pt-[3rem] pb-[5rem]"> 
       
         <div class="">
-          <h2 class="font-[Poppins] text-[#000066] text-[2rem] mb-[.7rem]"> Our Outreaches </h2>
+          <h2 class="font-[Poppins] font-semibold text-[#000066] text-[2rem] mb-[.7rem]"> Our Outreaches </h2>
           <div>
             <div class="flex w-[80%] mx-auto flex-col gap-8 items-center md:flex-row md:flex-wrap justify-center">
               <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
@@ -69,8 +69,8 @@
 
    <section class="bg-[#F2F2F7] pt-[3rem] pb-[5rem]"> 
       
-      <div class="w-[90%] mx-auto">
-        <h2 class="font-[Poppins] text-[#000066] text-[2rem] mb-[.7rem]"> Our Past Events </h2>
+      <div class="w-[90%] xl:w-[80%] mx-auto">
+        <h2 class="font-[Poppins] font-semibold text-[#000066] text-[2rem] mb-[.7rem]"> Our Past Events </h2>
         <div>
           <div class="flex w-[80%] mx-auto flex-col gap-8 items-center md:flex-row md:flex-wrap justify-center">
             <img src="../assets/img/bagbg.png" class="w-[36%] md:w-[26%]" alt="bag ankara">
